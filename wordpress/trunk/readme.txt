@@ -2,8 +2,8 @@
 Contributors: wortwart
 Tags: comments
 Requires at least: 3.0
-Tested up to: 3.5.2
-Stable tag: 1.0
+Tested up to: 3.9.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,3 +24,7 @@ Wishlist:
 == Installation ==
 
 Only works with WordPress' own comment system - no Disqus, Facebook etc. Should do no harm if this condition is not met. Detection of page visibility requires a modern browser (Firefox, Chrome, Opera, Safari 7+, Internet Explorer 10+) that supports the Page Visibility API.
+
+== Changelog ==
+
+1.0.1: fixed erroneous script directory (WordPress converts directory to lowercase).
